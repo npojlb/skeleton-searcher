@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "skeleton_searcher",
+  "version": "${version}",
+  "name": "Skeleton Searcher",
+  "description": "以半透明实心方块显示多个球壳的交集、并集或三球后显示结果。",
+  "authors": [
+    "颜逸茗",
+    "OpenAI"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.yanyiming.skeletonsearcher.SkeletonSearcherClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
